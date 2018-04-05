@@ -19,18 +19,18 @@ var multer = require('multer')
 var MulterProxyStorage = require('multer-proxy-storage')
 
 this.routePost('/uploadFile',
-	(req, res, next) => {
-		multer({
-			storage: MulterProxyStorage(
-				{
-					serverPath: `http://www.example.com/upload`,
-					fileParamName: 'file'
-				}),
-			preservePath: true
-		}).array('file')(req, res, next)
-	}, (req, res, next) => {
-		res.send('Success!')
-	})
+  (req, res, next) => {
+    multer({
+      storage: MulterProxyStorage(
+        {
+          serverPath: `http://www.example.com/upload`,
+          fileParamName: 'file'
+        }),
+      preservePath: true
+    }).array('file')(req, res, next)
+  }, (req, res, next) => {
+    res.send('Success!')
+  })
 
 ## License
 Multer-Proxy-Storage is released under the [MIT](License) license.

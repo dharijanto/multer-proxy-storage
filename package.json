@@ -11,6 +11,14 @@
     "email": "denny@nusantara-cloud.com",
     "url": "http://www.nusantara-cloud.com"
   },
+  "homepage": "https://github.com/nusantara-cloud/multer-proxy-storage",
+  "repository": {
+    "bugs": {
+      "url": "https://github.com/nusantara-cloud/multer-proxy-storage"
+    },
+    "type": "git",
+    "url": "git://github.com/nusantara-cloud/multer-proxy-storage.git"
+  },
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
