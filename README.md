@@ -31,6 +31,7 @@ this.routePost('/uploadFile',
   }, (req, res, next) => {
     res.send('Success!')
   })
+```
 
 ## License
 Multer-Proxy-Storage is released under the [MIT](License) license.
