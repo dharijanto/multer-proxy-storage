@@ -1,0 +1,20 @@
+{
+  "name": "multer-proxy-storage",
+  "version": "1.0.0",
+  "description": "Forward multipart/form-data file upload into a specified server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Denny Harijanto",
+    "email": "denny@nusantara-cloud.com",
+    "url": "http://www.nusantara-cloud.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concat-stream": "^1.6.2",
+    "form-data": "^2.3.2"
+  }
+}
